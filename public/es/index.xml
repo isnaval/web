@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ismael Navarro</title>
+    <link>http://localhost:1313/es/</link>
+    <description>Recent content on Ismael Navarro</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre mí</title>
+      <link>http://localhost:1313/es/about/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/about/</guid>
+      <description>Profesional con más de 20 años de experiencia en liderazgo en distintos ámbitos. Actualmente, me estoy especializando en ciberseguridad, desarrollo Full Stack y análisis de datos para ampliar mis competencias en el ámbito tecnológico.&#xA;Experiencia Profesional Link to heading Trayectoria multidisciplinar en gestión y asesoría empresarial en el sector privado, seguido de diversos roles de liderazgo en el Ministerio de Defensa. He forjado éxitos en ámbitos de RRHH, contratación pública y dirección de proyectos críticos, abarcando desde pequeñas empresas hasta operaciones militares.</description>
+    </item>
+  </channel>
+</rss>

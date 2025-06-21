@@ -1,0 +1,68 @@
+baseURL = "https://ismaelnv.com"
+title = "Ismael Navarro"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 6
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "Ismael Navarro"
+description = "Ismael Navarro - Cybersecurity Specialist & SOC Analyst"
+keywords = "cybersecurity,red team,soc analyst,security,developer,personal"
+info = ["Cybersecurity Specialist", "SOC Analyst", "Red Team Operations"]
+avatarURL = "images/avatar.jpeg"
+dateFormat = "January 2, 2006"
+since = 2024
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+
+# Custom CSS
+customCSS = []
+customSCSS = []
+customJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/ismael-navarro-valencia/"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 2
+url = "https://github.com/isnaval"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[languages.es]
+languageName = ":es:"
+title = "Ismael Navarro"
+
+[languages.es.params]
+author = "Ismael Navarro"
+info = ["Especialista en Ciberseguridad", "Analista SOC", "Operaciones Red Team"]
+description = "Ismael Navarro - Especialista en Ciberseguridad y Analista SOC"
+keywords = "ciberseguridad,red team,analista soc,seguridad,desarrollador,personal"
+
+[[languages.es.menu.main]]
+name = "Sobre mí"
+weight = 1
+url = "about/"
