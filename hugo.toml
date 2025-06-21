@@ -1,25 +1,66 @@
 baseURL = "https://ismaelnv.com"
-title = "Ismael Navarro"
+title = "Ismael Navarro - Consultoría Estratégica"
 theme = "hugo-coder"
 languageCode = "en"
-defaultContentLanguage = "en"
-paginate = 6
+defaultContentLanguage = "es"
+paginate = 10
 enableEmoji = true
+enableRobotsTXT = true
 
 [markup.highlight]
 noClasses = false
+lineNos = true
 
 [params]
 author = "Ismael Navarro"
-description = "Ismael Navarro - Cybersecurity Specialist & SOC Analyst"
-keywords = "cybersecurity,red team,soc analyst,security,developer,personal"
-info = ["Cybersecurity Specialist", "SOC Analyst", "Red Team Operations"]
+description = "Consultor Estratégico Valencia | Transformación Digital | Fondos Europeos Next Generation EU | Contratos Públicos | Ex-Oficial Ministerio Defensa | 20+ años liderazgo | Especialista PYMES y Administración Pública"
+keywords = "consultor estratégico valencia,transformación digital pymes,fondos europeos next generation,contratos públicos defensa,ex oficial ejercito consultor,financiación pública empresas,digitalización empresas valencia,consultor sector público,ayudas europeas valencia,licitaciones públicas,modernización empresarial,asesor estratégico españa"
+info = ["Consultor Estratégico", "Transformación Digital", "Financiación Pública", "Ex-Oficial Ministerio Defensa"]
 avatarURL = "images/avatar.jpeg"
 dateFormat = "January 2, 2006"
 since = 2024
 colorScheme = "auto"
 hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
+
+# SEO potenciado
+[params.seo]
+keywords = [
+    # Consultoría estratégica
+    "consultor estratégico valencia", "consultoria empresarial valencia", "asesor estratégico españa", 
+    "consultor transformación digital", "consultor liderazgo empresarial", "consultor gestión cambio",
+    
+    # Financiación y fondos
+    "fondos europeos valencia", "ayudas europeas empresas", "subvenciones next generation eu",
+    "consultor fondos europeos", "gestión subvenciones públicas", "financiación pública empresas",
+    "contratos públicos defensa", "licitaciones sector público", "acceso financiación europea",
+    
+    # Transformación digital
+    "transformación digital pymes", "digitalización empresas valencia", "consultor tecnológico",
+    "implementación sistemas digitales", "modernización empresarial", "estrategia digital",
+    
+    # Defensa y seguridad
+    "consultor sector defensa", "seguridad empresarial", "ciberseguridad empresas valencia",
+    "auditoría seguridad", "consultor ex militar", "análisis riesgos empresariales",
+    
+    # Sectores específicos
+    "consultor administración pública", "asesor sector público", "consultor pymes valencia",
+    "transformación digital administración", "modernización sector público",
+    
+    # Geográfico
+    "consultor valencia", "consultoria comunidad valenciana", "asesor empresarial españa",
+    "consultor castellón alicante", "servicios empresariales levante",
+    
+    # Long tail específicas
+    "como acceder fondos europeos", "ayuda solicitar subvenciones", "consultor next generation eu valencia",
+    "transformación digital sector público", "modernización empresas tradicionales",
+    "ex oficial ejercito consultor", "experiencia ministerio defensa",
+    
+    # Servicios específicos
+    "gestión integral proyectos europeos", "asesoramiento licitaciones públicas",
+    "consultoría compliance normativo", "auditoría procesos empresariales",
+    "planificación estratégica empresarial", "optimización recursos empresariales"
+]
 
 # Custom CSS
 customCSS = []
@@ -32,6 +73,7 @@ series = "series"
 tag = "tags"
 author = "authors"
 
+# Redes sociales expandidas
 [[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
@@ -44,25 +86,82 @@ icon = "fa-brands fa-github fa-2x"
 weight = 2
 url = "https://github.com/isnaval"
 
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+weight = 3
+url = "mailto:contacto@ismaelnv.com"
+
+
+
+# Menú en inglés
 [languages.en]
-languageName = ":uk:"
+languageName = "🇬🇧"
+title = "Ismael Navarro - Strategic Consulting"
+
+[languages.en.params]
+author = "Ismael Navarro"
+description = "Strategic Consultant Valencia Spain | Digital Transformation | European Funds Next Generation EU | Public Contracts | Former Defense Ministry Officer | 20+ years leadership | SME & Public Administration Specialist"
+keywords = "strategic consultant valencia spain,digital transformation sme,european funds next generation,public contracts defense,former military officer consultant,public funding companies,business digitalization valencia,public sector consultant,european grants valencia,public procurement,business modernization,strategic advisor spain"
+info = ["Strategic Consultant", "Digital Transformation", "Public Funding", "Former Defense Ministry Officer"]
 
 [[languages.en.menu.main]]
 name = "About"
 weight = 1
 url = "about/"
 
+[[languages.en.menu.main]]
+name = "Services"
+weight = 2
+url = "services/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Funding"
+weight = 4
+url = "funding/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 5
+url = "contact/"
+
+# Menú en español (idioma principal)
 [languages.es]
-languageName = ":es:"
-title = "Ismael Navarro"
+languageName = "🇪🇸"
+title = "Ismael Navarro - Consultoría Estratégica"
 
 [languages.es.params]
 author = "Ismael Navarro"
-info = ["Especialista en Ciberseguridad", "Analista SOC", "Operaciones Red Team"]
-description = "Ismael Navarro - Especialista en Ciberseguridad y Analista SOC"
-keywords = "ciberseguridad,red team,analista soc,seguridad,desarrollador,personal"
+description = "Consultor Estratégico | Transformación Digital | Acceso a Financiación Pública | +20 años experiencia en liderazgo | Especialista en Defensa y Seguridad"
+keywords = "consultor estratégico,transformación digital,financiación pública,fondos europeos,contratos públicos,defensa,seguridad,liderazgo empresarial,valencia,españa"
+info = ["Consultor Estratégico", "Transformación Digital", "Financiación Pública", "Ex-Oficial Ministerio Defensa"]
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
 weight = 1
 url = "about/"
+
+[[languages.es.menu.main]]
+name = "Servicios"
+weight = 2
+url = "services/"
+
+[[languages.es.menu.main]]
+name = "Proyectos"
+weight = 3
+url = "projects/"
+
+[[languages.es.menu.main]]
+name = "Financiación"
+weight = 4
+url = "funding/"
+
+[[languages.es.menu.main]]
+name = "Contacto"
+weight = 5
+url = "contact/"
